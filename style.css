@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(to right, #6a11cb, #2575fc); */
+    background-image: url(./assets/360_F_323124237_SfGqpttZqU2mrMm61VPSWA2tKvc95l9O.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.quiz-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.quiz {
+    background-color:burlywood;
+    padding: 30px;
+    /* border-radius: 15px; */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+.question {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #444;
+    margin: 20px 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.answer {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+label {
+    font-size: 1rem;
+    cursor: pointer;
+    color: #ddd;
+}
+.btn {
+    margin-top: 20px;
+}
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .material-icons {
+    margin-right: 8px; /* Space between icon and text */
+  }
+
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+button {
+    background-color: #6a11cb;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+button:hover {
+    background-color: #2575fc;
+    transform: translateY(-2px);
+}
+.result {
+    color: #fff;
+    font-size: 1.2rem;
+}
+.question i,
+label i {
+    margin-right: 8px; 
+    color: #ff6347; 
+    vertical-align: middle;}
+.btn button i {
+    margin-right: 5px; 
+}
